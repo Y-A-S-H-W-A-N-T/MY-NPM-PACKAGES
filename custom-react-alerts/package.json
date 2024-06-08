@@ -1,10 +1,11 @@
 {
-  "name": "custom-react-alerts",
-  "version": "1.0.0",
-  "description": "react custom alerts",
-  "main": "index.js",
+  "name": "alerts-react",
+  "version": "1.0.2",
+  "description": "react custom alerts, customize the alerts according to your likings.",
+  "main": "dist/bundle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack serve --open",
+    "build": "webpack --mode production"
   },
   "keywords": [
     "react",
@@ -29,8 +30,15 @@
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.0.4"
   },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/username/repository-name.git"
+    "url": "https://github.com/Y-A-S-H-W-A-N-T/MY-NPM-PACKAGES.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Y-A-S-H-W-A-N-T/MY-NPM-PACKAGES/issues"
   }
 }
